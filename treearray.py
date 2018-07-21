@@ -84,7 +84,7 @@ class TreeArray(object):
 
         return min_cost
     
-    def shortest_path(self):
+    def shortest_path_sum(self):
         if not self.tree:
             return 0
             
